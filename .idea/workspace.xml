@@ -6,11 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55dfe1c4-fcbb-4676-b964-62e19a2a8ae6" name="Default Changelist" comment="Project init">
-      <change afterPath="$PROJECT_DIR$/src/java/com/ctgu/controller/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/ctgu/service/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/com/ctgu/utils/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="55dfe1c4-fcbb-4676-b964-62e19a2a8ae6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/config/mapper/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/ctgu/bean/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/ctgu/bean/UsersExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/com/ctgu/dao/UsersMapper.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="9" />
           <entry key="jsp" value="2" />
           <entry key="properties" value="1" />
           <entry key="readme" value="1" />
@@ -40,7 +40,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="9" />
           <entry key="JSP" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
@@ -94,42 +94,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/TestMBG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/com/ctgu/bean/Users.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/com/ctgu/bean/UsersExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-705">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/mapper/UsersMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
@@ -153,11 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/com/ctgu/utils/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestMBG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -193,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/java/com/ctgu/controller/readme" />
         <option value="$PROJECT_DIR$/src/java/com/ctgu/service/readme.txt" />
         <option value="$PROJECT_DIR$/src/java/com/ctgu/utils/readme.txt" />
+        <option value="$PROJECT_DIR$/src/java/com/ctgu/dao/UsersMapper.java" />
       </list>
     </option>
   </component>
@@ -269,13 +243,6 @@
               <item name="szmt" type="b2602c69:ProjectViewProjectNode" />
               <item name="szmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="szmt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="szmt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,14 +251,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ctgu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="szmt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="szmt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ctgu" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="szmt" type="b2602c69:ProjectViewProjectNode" />
@@ -359,7 +318,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545308674952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545310507963" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -391,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.szmtTomcat">
+  <component name="RunManager" selected="Application.TestMBG">
     <configuration name="TestMBG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestMBG" />
       <module name="szmt" />
@@ -492,12 +451,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545303902962</updated>
-      <workItem from="1545303910485" duration="4134000" />
+      <workItem from="1545303910485" duration="4799000" />
     </task>
+    <task id="LOCAL-00001" summary="Project init">
+      <created>1545308680700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545308680700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4134000" />
+    <option name="totallyTimeSpent" value="4799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
@@ -600,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestMBG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/ctgu/bean/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -676,10 +636,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/ctgu/dao/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/ctgu/utils/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestMBG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
