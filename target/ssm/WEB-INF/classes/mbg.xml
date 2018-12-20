@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <properties resource="db.properties"></properties>
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+
+        <!-- 配置数据库连接信息 -->
+        <jdbcConnection driverClass="${jdbc.driverClass}"
+                        connectionURL="${jdbc.jdbcUrl}"
+                        userId="${jdbc.user}"
+                        password="${jdbc.password}">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!-- javaBean 生成位置-->
+        <javaModelGenerator targetPackage="com.ctgu.bean" targetProject="./src/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+        <!-- sql 映射文件生成位置-->
+        <sqlMapGenerator targetPackage="mapper"  targetProject="./src/config">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!-- 指定dao 接口生成的位置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ctgu.dao"  targetProject="./src/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!-- 指定每个表的生成策略 -->
+        <table tableName="Users" domainObjectName="Users"></table>
+        <table tableName="Articles" domainObjectName="Articles"></table>
+        <table tableName="Comments" domainObjectName="Comments"></table>
+        <table tableName="Resourses" domainObjectName="Resourses"></table>
+    </context>
+</generatorConfiguration>
